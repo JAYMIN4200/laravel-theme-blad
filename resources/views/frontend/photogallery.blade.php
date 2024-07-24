@@ -1,7 +1,7 @@
 @extends('frontend.layout.app')
 
 @push('title')
-<title>Photo Gallery</title>
+<title>Privacy & Policy</title>
 @endpush
 @section('content')
 
@@ -11,98 +11,184 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12 text-center">
-                <h2>Photo Gallery</h2>
+                <h2>Privacy Policy</h2>
                 <ul>
-                    <li><a href="{{route('home1')}}">Home</a></li>
-                    <li class="active">Gallery</li>
+                    <li><a href="route('home2')">Home</a></li>
+                    <li class="active">Privacy Policy</li>
                 </ul>
             </div>
         </div>
     </div>
 </div>
 <!-- breadcrumb end -->
-
-<!-- gallery start -->
-<section class="gallery3 ptb-115 ">
+<!-- text details section start -->
+<section class="km__text__details ptb-120">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-12 ">
-                <div class="common_title text-center">
-                    <p>Gallary</p>
-                    <h2>Our Best Campaign Gallery</h2>
-                </div>
-            </div>
+        <div class="km_policy">
+            <h2 class="mb-30 fs-42">Privacy Policy for Blood Ai</h2>
+            <p class="mb-30">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in
+                some form, by injected humour, or randomised words which don't look even slightly believable. If you are
+                going
+                to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in middle
+                of
+                text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,
+                making
+                this the first true generator on the Internet.
+            </p>
+            <p>
+                It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to
+                generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from
+                repetition, injected humour, or non-characteristic words etc.
+            </p>
         </div>
-        <div class="row justify-content-center">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-                <div class="gallary_item">
-                    <img src="{{ asset('frontend/images/h2_g1.jpg') }}" alt="">
-                    <a href="{{ asset('frontend/images/h2_g1.jpg') }}" data-fancybox="gallery"><i
-                            class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-                <div class="gallary_item">
-                    <img src="{{ asset('frontend/images/h2_g2.jpg') }}" alt="">
-                    <a href="{{ asset('frontend/images/h2_g2.jpg') }}" data-fancybox="gallery"><i
-                            class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-                <div class="gallary_item">
-                    <img src="{{ asset('frontend/images/h2_g3.jpg') }}" alt="">
-                    <a href="{{ asset('frontend/images/h2_g3.jpg') }}" data-fancybox="gallery"><i
-                            class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-                <div class="gallary_item">
-                    <img src="{{ asset('frontend/images/g1.jpg') }}" alt="">
-                    <a href="{{ asset('frontend/images/g1.jpg') }}" data-fancybox="gallery"><i
-                            class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-                <div class="gallary_item">
-                    <img src="{{ asset('frontend/images/g2.jpg') }}" alt="">
-                    <a href="{{ asset('frontend/images/g2.jpg') }}" data-fancybox="gallery"><i
-                            class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4">
-                <div class="gallary_item">
-                    <img src="{{ asset('frontend/images/g3.jpg') }}" alt="">
-                    <a href="{{ asset('frontend/images/g3.jpg') }}" data-fancybox="gallery"><i
-                            class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4 mb-xl-0 mb-lg-0 mb-md-0">
-                <div class="gallary_item">
-                    <img src="{{ asset('frontend/images/h2_g1.jpg') }}" alt="">
-                    <a href="{{ asset('frontend/images/h2_g1.jpg') }}" data-fancybox="gallery"><i
-                            class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 mb-4 mb-xl-0 mb-lg-0 mb-md-0">
-                <div class="gallary_item">
-                    <img src="{{ asset('frontend/images/h2_g2.jpg') }}" alt="">
-                    <a href="{{ asset('frontend/images/h2_g2.jpg') }}" data-fancybox="gallery"><i
-                            class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12 ">
-                <div class="gallary_item">
-                    <img src="{{ asset('frontend/images/h2_g3.jpg') }}" alt="">
-                    <a href="{{ asset('frontend/images/h2_g3.jpg') }}" data-fancybox="gallery"><i
-                            class="fa-solid fa-plus"></i></a>
-                </div>
-            </div>
+        <div class="km_Consent mt-30">
+            <h4 class="mb-30">Consent</h4>
+            <p class="mb-30">
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                alteration in
+                some form, by injected humour, or randomised words which don't look even slightly believable. If you are
+                going
+                to use a passage of Lorem Ipsum,
+            </p>
         </div>
-    </div>
+        <div class="km_Information mb-30">
+            <h4 class="mb-30">Information collection</h4>
+            <p class="mb-30">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin
+                literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney
+                College in Virginia,
+            </p>
+            <p class="mb-30">
+                looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going
+                through the
+                cites of the word in classical literature, discovered the undoubtable source.
+            </p>
+            <p class="m-0">
+                Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of
+                Good
+                and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular
+                during
+                the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
+                section
+                1.10.32.
+            </p>
+        </div>
+        <div class="km_How mb-mt">
+            <h4 class="mb-30">How we use your information</h4>
+            <p class="mb-30">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin
+                literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney
+                College in Virginia,
+            </p>
+        </div>
+        <ul class="km_pc_list">
+            <li>
+                <span>
+                    <i class="fa-regular fa-square-check"></i>
+                </span>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </li>
+            <li>
+                <span>
+                    <i class="fa-regular fa-square-check"></i>
+                </span>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </li>
+            <li>
+                <span>
+                    <i class="fa-regular fa-square-check"></i>
+                </span>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </li>
+            <li>
+                <span>
+                    <i class="fa-regular fa-square-check"></i>
+                </span>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </li>
+        </ul>
+        <div class="km_logs mt-30">
+            <h4 class="mb-30">Our File Logs</h4>
+            <p class="mb-30">
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+                Latin
+                literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+                Hampden-Sydney
+                College in Virginia,
+            </p>
+            <p class="m-0">looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+                going
+                through the cites of the word in classical literature, discovered the undoubtable source. </p>
+        </div>
+        <div class="km_Partners mt-30">
+            <h4 class="mb-30">Advertising Partners Privacy Policies</h4>
+            <p class="mb-30">But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                pain
+                was born and I will give you a complete account of the system, and expound the actual teachings of the
+                great
+                explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids
+                pleasure
+                itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally
+                encounter
+                consequences that are extremely painful. </p>
+            <p class="m-0">Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because
+                it is
+                pain, but because occasionally circumstances occur in which toil and pain can procure him some great
+                pleasure.
+                To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain
+                some
+                advantage from But who has any right to find fault with a man</p>
+        </div>
+        <div class="km_ccpa mt-30">
+            <h4 class="mb-30">CCPA Privacy Rights (Do Not Sell My Personal Information)</h4>
+            <p class="mb-30">But I must explain to you how all this mistaken idea of denouncing pleasure and praising
+                pain
+                was born and I will give you a complete account of the system, and expound the actual teachings of the
+                great
+                explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids
+                pleasure
+                itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally
+                encounter
+                consequences that are extremely painful. </p>
+            <p class="m-0">Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because
+                it is
+                pain, but because occasionally circumstances occur in which toil and pain can procure him some great
+                pleasure.
+                To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain
+                some
+                advantage from But who has any right to find fault with a man</p>
+        </div>
+        <div class="km_Blood mt-30">
+            <h4 class="mb-30">Blood Donate Information</h4>
+            <p class="mb-30">
+                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+                and I
+                will give you a complete account of the system, and expound the actual teachings of the great explorer
+                of the
+                truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
+                because it
+                is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences
+                that
+                are extremely painful.
+            </p>
+            <p class="m-0">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain
+                was
+                born and I will give you a complete account of the system, and expound the actual teachings of the great
+                explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids
+                pleasure
+                itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally
+                encounter
+                consequences that are extremely painful. </p>
+        </div>
     </div>
 </section>
-<!-- gallery end -->
-
+<!-- text details section ends -->
 
 
 @endsection
